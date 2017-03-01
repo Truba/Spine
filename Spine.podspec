@@ -17,4 +17,5 @@ Pod::Spec.new do |s|
 
   s.dependency 'SwiftyJSON', '~> 3.1.4'
   s.dependency 'BrightFutures', '~> 5.0'
+  s.dependency 'Reflection', '~> 0.14'
 end
