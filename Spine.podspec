@@ -11,11 +11,10 @@ Pod::Spec.new do |s|
   s.tvos.deployment_target = '9.0'
   s.osx.deployment_target = '10.10'
 
-  s.source_files = 'Spine/*.swift'
+  s.source_files = 'Source/*.swift'
 
   s.requires_arc = true
 
-  s.dependency 'SwiftyJSON', '~> 3.1.4'
+  s.dependency 'SwiftyJSON', '~> 3.1'
   s.dependency 'BrightFutures', '~> 5.0'
-  s.dependency 'Reflection', '~> 0.14'
 end

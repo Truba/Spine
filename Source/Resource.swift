@@ -7,7 +7,6 @@
 //
 
 import Foundation
-import Reflection
 
 public typealias ResourceType = String
 
@@ -138,14 +137,12 @@ open class Resource: NSObject, NSCoding {
 
   /// Returns the value for the field named `field`.
 	func value(forField field: String) -> Any? {
-        do { return try get(field, from: self) }
-        catch { return nil }
+		return value(forKey: field) as AnyObject?
 	}
 
 	/// Sets the value for the field named `field` to `value`.
 	func setValue(_ value: Any?, forField field: String) {
-        guard let value = value else { return }
-        try! set(value, key: field, for: self)
+		setValue(value, forKey: field)
 	}
 
 	/// Set the values for all fields to nil and sets `isLoaded` to false.
