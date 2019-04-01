@@ -1,0 +1,165 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ExecutionContext"
+- "ImmediateExecutionContext"
+- "ImmediateOnMainExecutionContext"
+- "MaxStackDepthExecutionContext"
+- "ThreadingModel"
+- "DefaultThreadingModel"
+- "defaultContext"
+provides-nominal:
+provides-member:
+provides-dynamic-lookup:
+depends-top-level:
+- "+"
+- ">"
+- "AssignmentPrecedence"
+- "CastingPrecedence"
+- "DefaultThreadingModel"
+- "DispatchQueue"
+- "ExecutionContext"
+- "ImmediateExecutionContext"
+- "ImmediateOnMainExecutionContext"
+- "Int"
+- "MaxStackDepthExecutionContext"
+- "TernaryPrecedence"
+- "Thread"
+- "ThreadingModel"
+- "Void"
+- "defaultContext"
+depends-member:
+- ["s7CVarArgP", "async"]
+- !private ["s7CVarArgP", "context"]
+- ["s7CVarArgP", "current"]
+- ["s7CVarArgP", "global"]
+- ["s7CVarArgP", "isMainThread"]
+- ["s7CVarArgP", "main"]
+- ["s7CVarArgP", "subscript"]
+- ["s7CVarArgP", "threadDictionary"]
+- ["s28CustomDebugStringConvertibleP", "async"]
+- !private ["s28CustomDebugStringConvertibleP", "context"]
+- ["s28CustomDebugStringConvertibleP", "current"]
+- ["s28CustomDebugStringConvertibleP", "global"]
+- ["s28CustomDebugStringConvertibleP", "isMainThread"]
+- ["s28CustomDebugStringConvertibleP", "main"]
+- ["s28CustomDebugStringConvertibleP", "subscript"]
+- ["s28CustomDebugStringConvertibleP", "threadDictionary"]
+- ["s17CustomReflectableP", "subscript"]
+- ["s23CustomStringConvertibleP", "async"]
+- !private ["s23CustomStringConvertibleP", "context"]
+- ["s23CustomStringConvertibleP", "current"]
+- ["s23CustomStringConvertibleP", "global"]
+- ["s23CustomStringConvertibleP", "isMainThread"]
+- ["s23CustomStringConvertibleP", "main"]
+- ["s23CustomStringConvertibleP", "subscript"]
+- ["s23CustomStringConvertibleP", "threadDictionary"]
+- ["So18OS_dispatch_objectC", "async"]
+- !private ["So18OS_dispatch_objectC", "context"]
+- ["So18OS_dispatch_objectC", "global"]
+- ["So18OS_dispatch_objectC", "main"]
+- ["So17OS_dispatch_queueC", "async"]
+- !private ["So17OS_dispatch_queueC", "context"]
+- ["So17OS_dispatch_queueC", "global"]
+- ["So17OS_dispatch_queueC", "main"]
+- ["SQ", "async"]
+- !private ["SQ", "context"]
+- ["SQ", "current"]
+- ["SQ", "global"]
+- ["SQ", "isMainThread"]
+- ["SQ", "main"]
+- ["SQ", "subscript"]
+- ["SQ", "threadDictionary"]
+- ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- ["SH", "async"]
+- !private ["SH", "context"]
+- ["SH", "current"]
+- ["SH", "global"]
+- ["SH", "isMainThread"]
+- ["SH", "main"]
+- ["SH", "subscript"]
+- ["SH", "threadDictionary"]
+- ["So8NSCodingP", "subscript"]
+- ["So9NSCopyingP", "subscript"]
+- ["So12NSDictionaryC", "subscript"]
+- ["So17NSFastEnumerationP", "subscript"]
+- ["So16NSMutableCopyingP", "subscript"]
+- ["So19NSMutableDictionaryC", "subscript"]
+- ["So8NSObjectC", "async"]
+- !private ["So8NSObjectC", "context"]
+- ["So8NSObjectC", "current"]
+- ["So8NSObjectC", "global"]
+- ["So8NSObjectC", "isMainThread"]
+- ["So8NSObjectC", "main"]
+- ["So8NSObjectC", "subscript"]
+- ["So8NSObjectC", "threadDictionary"]
+- ["So8NSObjectP", "async"]
+- !private ["So8NSObjectP", "context"]
+- ["So8NSObjectP", "current"]
+- ["So8NSObjectP", "global"]
+- ["So8NSObjectP", "isMainThread"]
+- ["So8NSObjectP", "main"]
+- ["So8NSObjectP", "subscript"]
+- ["So8NSObjectP", "threadDictionary"]
+- ["So14NSSecureCodingP", "subscript"]
+- ["So9OS_objectC", "async"]
+- !private ["So9OS_objectC", "context"]
+- ["So9OS_objectC", "global"]
+- ["So9OS_objectC", "main"]
+- ["ST", "subscript"]
+- ["So8NSThreadC", "current"]
+- ["So8NSThreadC", "isMainThread"]
+- ["So8NSThreadC", "threadDictionary"]
+- ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "async"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "context"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "current"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "global"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "isMainThread"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "main"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "subscript"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "threadDictionary"]
+depends-nominal:
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "So18OS_dispatch_objectC"
+- "So17OS_dispatch_queueC"
+- "SQ"
+- "s30ExpressibleByDictionaryLiteralP"
+- "SH"
+- "So8NSCodingP"
+- "So9NSCopyingP"
+- "So12NSDictionaryC"
+- "So17NSFastEnumerationP"
+- "So16NSMutableCopyingP"
+- "So19NSMutableDictionaryC"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "So14NSSecureCodingP"
+- "So9OS_objectC"
+- "ST"
+- "So8NSThreadC"
+- "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/Result.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "ee3f3bbcfa2ed6b1a11b9759016f9ee9"

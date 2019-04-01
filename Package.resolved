@@ -5,9 +5,9 @@
         "package": "BrightFutures",
         "repositoryURL": "https://github.com/Truba/BrightFutures.git",
         "state": {
-          "branch": "master",
+          "branch": null,
           "revision": "445bd690ffde7abbf3e7ff6e8e6b899f8485a9a4",
-          "version": null
+          "version": "9.0.0"
         }
       },
       {
