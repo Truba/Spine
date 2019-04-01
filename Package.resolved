@@ -21,11 +21,11 @@
       },
       {
         "package": "SwiftyJSON",
-        "repositoryURL": "https://github.com/SwiftyJSON/SwiftyJSON.git",
+        "repositoryURL": "https://github.com/Truba/SwiftyJSON.git",
         "state": {
-          "branch": "master",
+          "branch": null,
           "revision": "8bbb74eec7366de10f78a05fc9dff588337c117e",
-          "version": null
+          "version": "5.0.0"
         }
       }
     ]

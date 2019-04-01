@@ -13,7 +13,7 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/antitypical/Result.git", from: "4.0.0"),
-        .package(url: "https://github.com/SwiftyJSON/SwiftyJSON.git", .branch("master")),
+        .package(url: "https://github.com/Truba/SwiftyJSON.git", from: "5.0.0"),
         .package(url: "https://github.com/Truba/BrightFutures.git",  from: "9.0.0")
         
     ],

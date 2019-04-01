@@ -5,6 +5,6 @@
 	ignorecase = true
 	precomposeunicode = true
 [remote "origin"]
-	url = https://github.com/SwiftyJSON/SwiftyJSON.git
+	url = https://github.com/Truba/SwiftyJSON.git
 	fetch = +refs/*:refs/*
 	mirror = true
