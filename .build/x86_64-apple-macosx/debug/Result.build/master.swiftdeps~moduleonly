@@ -1,0 +1,8 @@
+version: "Apple Swift version 5.0 (swiftlang-1001.0.69.5 clang-1001.0.46.3)"
+options: "229c178d5d892c96cb654a6fd6bc4189"
+build_time: [1554100218, 56281000]
+inputs:
+  "/Users/truba/work/Testing/Spine/.build/checkouts/Result/Result/AnyError.swift": [1554100190, 58274692]
+  "/Users/truba/work/Testing/Spine/.build/checkouts/Result/Result/NoError.swift": [1554100190, 58924890]
+  "/Users/truba/work/Testing/Spine/.build/checkouts/Result/Result/Result.swift": [1554100190, 87059473]
+  "/Users/truba/work/Testing/Spine/.build/checkouts/Result/Result/ResultProtocol.swift": [1554100190, 88468171]

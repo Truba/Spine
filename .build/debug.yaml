@@ -1,0 +1,131 @@
+client:
+  name: basic
+tools: {}
+targets:
+  "main": ["/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/Spine.swiftmodule","<Spine-debug.module>"]
+  "test": ["/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/Spine.swiftmodule","/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/SpinePackageTests.xctest/Contents/MacOS/SpinePackageTests","/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/SpineTests.swiftmodule","<Spine-debug.module>","<SpinePackageTests-debug.test>","<SpineTests-debug.module>"]
+  "BrightFutures-debug.module": ["/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/BrightFutures.swiftmodule","<BrightFutures-debug.module>"]
+  "Result-debug.module": ["/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/Result.swiftmodule","<Result-debug.module>"]
+  "Spine-debug.module": ["/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/Spine.swiftmodule","<Spine-debug.module>"]
+  "SpinePackageTests-debug.test": ["/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/SpinePackageTests.xctest/Contents/MacOS/SpinePackageTests","<SpinePackageTests-debug.test>"]
+  "SpineTests-debug.module": ["/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/SpineTests.swiftmodule","<SpineTests-debug.module>"]
+  "SwiftyJSON-debug.module": ["/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/SwiftyJSON.swiftmodule","<SwiftyJSON-debug.module>"]
+default: "main"
+commands: 
+  "<C.BrightFutures-debug.module>":
+    tool: phony
+    inputs: ["/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/BrightFutures.swiftmodule"]
+    outputs: ["<BrightFutures-debug.module>"]
+
+  "<C.Result-debug.module>":
+    tool: phony
+    inputs: ["/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/Result.swiftmodule"]
+    outputs: ["<Result-debug.module>"]
+
+  "<C.Spine-debug.module>":
+    tool: phony
+    inputs: ["/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/Spine.swiftmodule"]
+    outputs: ["<Spine-debug.module>"]
+
+  "<C.SpinePackageTests-debug.test>":
+    tool: phony
+    inputs: ["/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/SpinePackageTests.xctest/Contents/MacOS/SpinePackageTests"]
+    outputs: ["<SpinePackageTests-debug.test>"]
+
+  "<C.SpineTests-debug.module>":
+    tool: phony
+    inputs: ["/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/SpineTests.swiftmodule"]
+    outputs: ["<SpineTests-debug.module>"]
+
+  "<C.SwiftyJSON-debug.module>":
+    tool: phony
+    inputs: ["/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/SwiftyJSON.swiftmodule"]
+    outputs: ["<SwiftyJSON-debug.module>"]
+
+  "C.BrightFutures-debug.module":
+    tool: swift-compiler
+    executable: "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    module-name: "BrightFutures"
+    module-output-path: "/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/BrightFutures.swiftmodule"
+    inputs: ["/Users/truba/work/Testing/Spine/.build/checkouts/BrightFutures/Sources/BrightFutures/Async.swift","/Users/truba/work/Testing/Spine/.build/checkouts/BrightFutures/Sources/BrightFutures/AsyncType+Debug.swift","/Users/truba/work/Testing/Spine/.build/checkouts/BrightFutures/Sources/BrightFutures/AsyncType+ResultType.swift","/Users/truba/work/Testing/Spine/.build/checkouts/BrightFutures/Sources/BrightFutures/AsyncType.swift","/Users/truba/work/Testing/Spine/.build/checkouts/BrightFutures/Sources/BrightFutures/Dispatch+BrightFutures.swift","/Users/truba/work/Testing/Spine/.build/checkouts/BrightFutures/Sources/BrightFutures/Errors.swift","/Users/truba/work/Testing/Spine/.build/checkouts/BrightFutures/Sources/BrightFutures/ExecutionContext.swift","/Users/truba/work/Testing/Spine/.build/checkouts/BrightFutures/Sources/BrightFutures/Future.swift","/Users/truba/work/Testing/Spine/.build/checkouts/BrightFutures/Sources/BrightFutures/InvalidationToken.swift","/Users/truba/work/Testing/Spine/.build/checkouts/BrightFutures/Sources/BrightFutures/MutableAsyncType+ResultType.swift","/Users/truba/work/Testing/Spine/.build/checkouts/BrightFutures/Sources/BrightFutures/MutableAsyncType.swift","/Users/truba/work/Testing/Spine/.build/checkouts/BrightFutures/Sources/BrightFutures/NSOperationQueue+BrightFutures.swift","/Users/truba/work/Testing/Spine/.build/checkouts/BrightFutures/Sources/BrightFutures/Promise.swift","/Users/truba/work/Testing/Spine/.build/checkouts/BrightFutures/Sources/BrightFutures/Result+BrightFutures.swift","/Users/truba/work/Testing/Spine/.build/checkouts/BrightFutures/Sources/BrightFutures/SequenceType+BrightFutures.swift","/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/Result.swiftmodule"]
+    outputs: ["/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/BrightFutures.build/Async.swift.o","/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/BrightFutures.build/AsyncType+Debug.swift.o","/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/BrightFutures.build/AsyncType+ResultType.swift.o","/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/BrightFutures.build/AsyncType.swift.o","/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/BrightFutures.build/Dispatch+BrightFutures.swift.o","/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/BrightFutures.build/Errors.swift.o","/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/BrightFutures.build/ExecutionContext.swift.o","/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/BrightFutures.build/Future.swift.o","/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/BrightFutures.build/InvalidationToken.swift.o","/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/BrightFutures.build/MutableAsyncType+ResultType.swift.o","/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/BrightFutures.build/MutableAsyncType.swift.o","/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/BrightFutures.build/NSOperationQueue+BrightFutures.swift.o","/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/BrightFutures.build/Promise.swift.o","/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/BrightFutures.build/Result+BrightFutures.swift.o","/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/BrightFutures.build/SequenceType+BrightFutures.swift.o","/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/BrightFutures.swiftmodule"]
+    import-paths: ["/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug"]
+    temps-path: "/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/BrightFutures.build"
+    objects: ["/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/BrightFutures.build/Async.swift.o","/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/BrightFutures.build/AsyncType+Debug.swift.o","/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/BrightFutures.build/AsyncType+ResultType.swift.o","/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/BrightFutures.build/AsyncType.swift.o","/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/BrightFutures.build/Dispatch+BrightFutures.swift.o","/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/BrightFutures.build/Errors.swift.o","/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/BrightFutures.build/ExecutionContext.swift.o","/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/BrightFutures.build/Future.swift.o","/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/BrightFutures.build/InvalidationToken.swift.o","/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/BrightFutures.build/MutableAsyncType+ResultType.swift.o","/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/BrightFutures.build/MutableAsyncType.swift.o","/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/BrightFutures.build/NSOperationQueue+BrightFutures.swift.o","/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/BrightFutures.build/Promise.swift.o","/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/BrightFutures.build/Result+BrightFutures.swift.o","/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/BrightFutures.build/SequenceType+BrightFutures.swift.o"]
+    other-args: ["-target","x86_64-apple-macosx10.10","-swift-version","5","-enable-batch-mode","-index-store-path","/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/index/store","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-Onone","-g","-enable-testing","-j4","-DSWIFT_PACKAGE","-DDEBUG","-module-cache-path","/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/ModuleCache","-Xfrontend","-color-diagnostics"]
+    sources: ["/Users/truba/work/Testing/Spine/.build/checkouts/BrightFutures/Sources/BrightFutures/Async.swift","/Users/truba/work/Testing/Spine/.build/checkouts/BrightFutures/Sources/BrightFutures/AsyncType+Debug.swift","/Users/truba/work/Testing/Spine/.build/checkouts/BrightFutures/Sources/BrightFutures/AsyncType+ResultType.swift","/Users/truba/work/Testing/Spine/.build/checkouts/BrightFutures/Sources/BrightFutures/AsyncType.swift","/Users/truba/work/Testing/Spine/.build/checkouts/BrightFutures/Sources/BrightFutures/Dispatch+BrightFutures.swift","/Users/truba/work/Testing/Spine/.build/checkouts/BrightFutures/Sources/BrightFutures/Errors.swift","/Users/truba/work/Testing/Spine/.build/checkouts/BrightFutures/Sources/BrightFutures/ExecutionContext.swift","/Users/truba/work/Testing/Spine/.build/checkouts/BrightFutures/Sources/BrightFutures/Future.swift","/Users/truba/work/Testing/Spine/.build/checkouts/BrightFutures/Sources/BrightFutures/InvalidationToken.swift","/Users/truba/work/Testing/Spine/.build/checkouts/BrightFutures/Sources/BrightFutures/MutableAsyncType+ResultType.swift","/Users/truba/work/Testing/Spine/.build/checkouts/BrightFutures/Sources/BrightFutures/MutableAsyncType.swift","/Users/truba/work/Testing/Spine/.build/checkouts/BrightFutures/Sources/BrightFutures/NSOperationQueue+BrightFutures.swift","/Users/truba/work/Testing/Spine/.build/checkouts/BrightFutures/Sources/BrightFutures/Promise.swift","/Users/truba/work/Testing/Spine/.build/checkouts/BrightFutures/Sources/BrightFutures/Result+BrightFutures.swift","/Users/truba/work/Testing/Spine/.build/checkouts/BrightFutures/Sources/BrightFutures/SequenceType+BrightFutures.swift"]
+    is-library: true
+    enable-whole-module-optimization: false
+    num-threads: "4"
+
+  "C.Result-debug.module":
+    tool: swift-compiler
+    executable: "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    module-name: "Result"
+    module-output-path: "/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/Result.swiftmodule"
+    inputs: ["/Users/truba/work/Testing/Spine/.build/checkouts/Result/Result/AnyError.swift","/Users/truba/work/Testing/Spine/.build/checkouts/Result/Result/NoError.swift","/Users/truba/work/Testing/Spine/.build/checkouts/Result/Result/Result.swift","/Users/truba/work/Testing/Spine/.build/checkouts/Result/Result/ResultProtocol.swift"]
+    outputs: ["/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/Result.build/AnyError.swift.o","/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/Result.build/NoError.swift.o","/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/Result.build/Result.swift.o","/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/Result.build/ResultProtocol.swift.o","/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/Result.swiftmodule"]
+    import-paths: ["/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug"]
+    temps-path: "/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/Result.build"
+    objects: ["/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/Result.build/AnyError.swift.o","/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/Result.build/NoError.swift.o","/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/Result.build/Result.swift.o","/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/Result.build/ResultProtocol.swift.o"]
+    other-args: ["-target","x86_64-apple-macosx10.10","-swift-version","5","-enable-batch-mode","-index-store-path","/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/index/store","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-Onone","-g","-enable-testing","-j4","-DSWIFT_PACKAGE","-DDEBUG","-module-cache-path","/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/ModuleCache","-Xfrontend","-color-diagnostics"]
+    sources: ["/Users/truba/work/Testing/Spine/.build/checkouts/Result/Result/AnyError.swift","/Users/truba/work/Testing/Spine/.build/checkouts/Result/Result/NoError.swift","/Users/truba/work/Testing/Spine/.build/checkouts/Result/Result/Result.swift","/Users/truba/work/Testing/Spine/.build/checkouts/Result/Result/ResultProtocol.swift"]
+    is-library: true
+    enable-whole-module-optimization: false
+    num-threads: "4"
+
+  "C.Spine-debug.module":
+    tool: swift-compiler
+    executable: "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    module-name: "Spine"
+    module-output-path: "/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/Spine.swiftmodule"
+    inputs: ["/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/BrightFutures.swiftmodule","/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/Result.swiftmodule","/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/SwiftyJSON.swiftmodule","/Users/truba/work/Testing/Spine/Sources/Spine/Spine.swift"]
+    outputs: ["/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/Spine.build/Spine.swift.o","/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/Spine.swiftmodule"]
+    import-paths: ["/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug"]
+    temps-path: "/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/Spine.build"
+    objects: ["/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/Spine.build/Spine.swift.o"]
+    other-args: ["-target","x86_64-apple-macosx10.10","-swift-version","5","-enable-batch-mode","-index-store-path","/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/index/store","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-Onone","-g","-enable-testing","-j4","-DSWIFT_PACKAGE","-DDEBUG","-module-cache-path","/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/ModuleCache","-Xfrontend","-color-diagnostics"]
+    sources: ["/Users/truba/work/Testing/Spine/Sources/Spine/Spine.swift"]
+    is-library: true
+    enable-whole-module-optimization: false
+    num-threads: "4"
+
+  "C.SpinePackageTests-debug.test":
+    tool: shell
+    description: "Linking ./.build/x86_64-apple-macosx/debug/SpinePackageTests.xctest/Contents/MacOS/SpinePackageTests"
+    inputs: ["/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/BrightFutures.build/Async.swift.o","/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/BrightFutures.build/AsyncType+Debug.swift.o","/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/BrightFutures.build/AsyncType+ResultType.swift.o","/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/BrightFutures.build/AsyncType.swift.o","/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/BrightFutures.build/Dispatch+BrightFutures.swift.o","/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/BrightFutures.build/Errors.swift.o","/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/BrightFutures.build/ExecutionContext.swift.o","/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/BrightFutures.build/Future.swift.o","/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/BrightFutures.build/InvalidationToken.swift.o","/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/BrightFutures.build/MutableAsyncType+ResultType.swift.o","/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/BrightFutures.build/MutableAsyncType.swift.o","/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/BrightFutures.build/NSOperationQueue+BrightFutures.swift.o","/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/BrightFutures.build/Promise.swift.o","/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/BrightFutures.build/Result+BrightFutures.swift.o","/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/BrightFutures.build/SequenceType+BrightFutures.swift.o","/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/Result.build/AnyError.swift.o","/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/Result.build/NoError.swift.o","/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/Result.build/Result.swift.o","/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/Result.build/ResultProtocol.swift.o","/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/Spine.build/Spine.swift.o","/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/SpineTests.build/SpineTests.swift.o","/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/SpineTests.build/XCTestManifests.swift.o","/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/SwiftyJSON.build/SwiftyJSON.swift.o"]
+    outputs: ["/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/SpinePackageTests.xctest/Contents/MacOS/SpinePackageTests"]
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-g","-L","/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug","-o","/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/SpinePackageTests.xctest/Contents/MacOS/SpinePackageTests","-module-name","SpinePackageTests","-Xlinker","-bundle","@/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/SpinePackageTests.product/Objects.LinkFileList","-Xlinker","-rpath","-Xlinker","/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx"]
+
+  "C.SpineTests-debug.module":
+    tool: swift-compiler
+    executable: "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    module-name: "SpineTests"
+    module-output-path: "/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/SpineTests.swiftmodule"
+    inputs: ["/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/Spine.swiftmodule","/Users/truba/work/Testing/Spine/Tests/SpineTests/SpineTests.swift","/Users/truba/work/Testing/Spine/Tests/SpineTests/XCTestManifests.swift"]
+    outputs: ["/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/SpineTests.build/SpineTests.swift.o","/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/SpineTests.build/XCTestManifests.swift.o","/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/SpineTests.swiftmodule"]
+    import-paths: ["/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug"]
+    temps-path: "/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/SpineTests.build"
+    objects: ["/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/SpineTests.build/SpineTests.swift.o","/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/SpineTests.build/XCTestManifests.swift.o"]
+    other-args: ["-target","x86_64-apple-macosx10.10","-swift-version","5","-enable-batch-mode","-index-store-path","/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/index/store","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-Onone","-g","-enable-testing","-j4","-DSWIFT_PACKAGE","-DDEBUG","-module-cache-path","/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/ModuleCache","-Xfrontend","-color-diagnostics"]
+    sources: ["/Users/truba/work/Testing/Spine/Tests/SpineTests/SpineTests.swift","/Users/truba/work/Testing/Spine/Tests/SpineTests/XCTestManifests.swift"]
+    is-library: true
+    enable-whole-module-optimization: false
+    num-threads: "4"
+
+  "C.SwiftyJSON-debug.module":
+    tool: swift-compiler
+    executable: "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    module-name: "SwiftyJSON"
+    module-output-path: "/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/SwiftyJSON.swiftmodule"
+    inputs: ["/Users/truba/work/Testing/Spine/.build/checkouts/SwiftyJSON/Source/SwiftyJSON/SwiftyJSON.swift"]
+    outputs: ["/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/SwiftyJSON.build/SwiftyJSON.swift.o","/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/SwiftyJSON.swiftmodule"]
+    import-paths: ["/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug"]
+    temps-path: "/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/SwiftyJSON.build"
+    objects: ["/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/SwiftyJSON.build/SwiftyJSON.swift.o"]
+    other-args: ["-target","x86_64-apple-macosx10.10","-swift-version","5","-enable-batch-mode","-index-store-path","/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/index/store","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-Onone","-g","-enable-testing","-j4","-DSWIFT_PACKAGE","-DDEBUG","-module-cache-path","/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/ModuleCache","-Xfrontend","-color-diagnostics"]
+    sources: ["/Users/truba/work/Testing/Spine/.build/checkouts/SwiftyJSON/Source/SwiftyJSON/SwiftyJSON.swift"]
+    is-library: true
+    enable-whole-module-optimization: false
+    num-threads: "4"
+

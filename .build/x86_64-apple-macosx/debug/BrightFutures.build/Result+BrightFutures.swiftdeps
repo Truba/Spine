@@ -1,0 +1,74 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["6Result0A8ProtocolP", ""]
+- ["6Result0A8ProtocolP", "analysis"]
+- ["6Result0A8ProtocolP", "flatMap"]
+- ["6Result0A8ProtocolP", "flatten"]
+- ["6Result0A8ProtocolP", "flatten"]
+provides-dynamic-lookup:
+depends-top-level:
+- "AsyncType"
+- "Future"
+- !private "ImmediateExecutionContext"
+- "Result"
+- "ResultProtocol"
+depends-member:
+- !private ["13BrightFutures5AsyncC", "init"]
+- !private ["13BrightFutures9AsyncTypeP", "init"]
+- !private ["13BrightFutures9AsyncTypeP", "onComplete"]
+- !private ["s28CustomDebugStringConvertibleP", "analysis"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "analysis"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["SQ", "analysis"]
+- !private ["SQ", "init"]
+- !private ["13BrightFutures6FutureC", "deinit"]
+- !private ["13BrightFutures6FutureC", "init"]
+- !private ["13BrightFutures16MutableAsyncTypeP", "init"]
+- !private ["6ResultAAO", "analysis"]
+- !private ["6ResultAAO", "init"]
+- ["6Result0A8ProtocolP", "AsyncType"]
+- ["6Result0A8ProtocolP", "Error"]
+- ["6Result0A8ProtocolP", "Future"]
+- !private ["6Result0A8ProtocolP", "ImmediateExecutionContext"]
+- ["6Result0A8ProtocolP", "Result"]
+- ["6Result0A8ProtocolP", "ResultProtocol"]
+- ["6Result0A8ProtocolP", "Value"]
+- ["6Result0A8ProtocolP", "analysis"]
+- ["6Result0A8ProtocolP", "flatMap"]
+- ["6Result0A8ProtocolP", "flatten"]
+- !private ["6Result0A8ProtocolP", "init"]
+- !private ["6Result0A8ProtocolP", "result"]
+depends-nominal:
+- !private "13BrightFutures5AsyncC"
+- !private "13BrightFutures9AsyncTypeP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s23CustomStringConvertibleP"
+- !private "SQ"
+- !private "13BrightFutures6FutureC"
+- !private "13BrightFutures16MutableAsyncTypeP"
+- !private "6ResultAAO"
+- "6Result0A8ProtocolP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/Result.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "495ffea830ea9a0f5c8f4c682cf2658c"

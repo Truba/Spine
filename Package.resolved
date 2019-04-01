@@ -3,11 +3,11 @@
     "pins": [
       {
         "package": "BrightFutures",
-        "repositoryURL": "https://github.com/Thomvis/BrightFutures.git",
+        "repositoryURL": "https://github.com/Truba/BrightFutures.git",
         "state": {
-          "branch": null,
-          "revision": "53732cf7bf02a547ab0c6851bdf0f20fb27d1b3e",
-          "version": "6.0.1"
+          "branch": "master",
+          "revision": "445bd690ffde7abbf3e7ff6e8e6b899f8485a9a4",
+          "version": null
         }
       },
       {
@@ -15,17 +15,17 @@
         "repositoryURL": "https://github.com/antitypical/Result.git",
         "state": {
           "branch": null,
-          "revision": "7477584259bfce2560a19e06ad9f71db441fff11",
-          "version": "3.2.4"
+          "revision": "2ca499ba456795616fbc471561ff1d963e6ae160",
+          "version": "4.1.0"
         }
       },
       {
         "package": "SwiftyJSON",
         "repositoryURL": "https://github.com/SwiftyJSON/SwiftyJSON.git",
         "state": {
-          "branch": null,
-          "revision": "dadbfcffd5f51e2b488a26e83f188d96755e5393",
-          "version": "3.1.4"
+          "branch": "master",
+          "revision": "8bbb74eec7366de10f78a05fc9dff588337c117e",
+          "version": null
         }
       }
     ]

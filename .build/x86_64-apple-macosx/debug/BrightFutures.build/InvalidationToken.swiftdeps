@@ -1,0 +1,115 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "InvalidationTokenType"
+- "ManualInvalidationTokenType"
+- "InvalidationToken"
+provides-nominal:
+- "13BrightFutures21InvalidationTokenTypeP"
+- "13BrightFutures27ManualInvalidationTokenTypeP"
+- "13BrightFutures17InvalidationTokenC"
+provides-member:
+- ["13BrightFutures21InvalidationTokenTypeP", ""]
+- ["13BrightFutures27ManualInvalidationTokenTypeP", ""]
+- ["13BrightFutures17InvalidationTokenC", ""]
+- ["13BrightFutures21InvalidationTokenTypeP", "validContext"]
+- ["13BrightFutures21InvalidationTokenTypeP", "validContext"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!"
+- "Bool"
+- "BrightFuturesError"
+- !private "DefaultThreadingModel"
+- "ExecutionContext"
+- "Future"
+- "InvalidationToken"
+- "InvalidationTokenType"
+- "ManualInvalidationTokenType"
+- "NoError"
+- "NoValue"
+depends-member:
+- !private ["13BrightFutures5AsyncC", "failure"]
+- ["13BrightFutures5AsyncC", "init"]
+- !private ["13BrightFutures5AsyncC", "isCompleted"]
+- !private ["13BrightFutures9AsyncTypeP", "failure"]
+- ["13BrightFutures9AsyncTypeP", "init"]
+- !private ["13BrightFutures9AsyncTypeP", "isCompleted"]
+- ["13BrightFutures0aB5ErrorO", "deinit"]
+- !private ["13BrightFutures0aB5ErrorO", "invalidationTokenInvalidated"]
+- !private ["s28CustomDebugStringConvertibleP", "failure"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isCompleted"]
+- !private ["s23CustomStringConvertibleP", "failure"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isCompleted"]
+- !private ["SQ", "invalidationTokenInvalidated"]
+- !private ["s5ErrorP", "invalidationTokenInvalidated"]
+- ["13BrightFutures6FutureC", "deinit"]
+- !private ["13BrightFutures6FutureC", "failure"]
+- ["13BrightFutures6FutureC", "init"]
+- !private ["13BrightFutures6FutureC", "isCompleted"]
+- ["13BrightFutures17InvalidationTokenC", "Bool"]
+- ["13BrightFutures17InvalidationTokenC", "BrightFuturesError"]
+- ["13BrightFutures17InvalidationTokenC", "Future"]
+- ["13BrightFutures17InvalidationTokenC", "NoError"]
+- ["13BrightFutures17InvalidationTokenC", "NoValue"]
+- ["13BrightFutures17InvalidationTokenC", "deinit"]
+- ["13BrightFutures17InvalidationTokenC", "future"]
+- ["13BrightFutures17InvalidationTokenC", "init"]
+- ["13BrightFutures17InvalidationTokenC", "invalidate"]
+- ["13BrightFutures17InvalidationTokenC", "isInvalid"]
+- ["13BrightFutures17InvalidationTokenC", "validContext"]
+- ["13BrightFutures21InvalidationTokenTypeP", "Bool"]
+- ["13BrightFutures21InvalidationTokenTypeP", "BrightFuturesError"]
+- !private ["13BrightFutures21InvalidationTokenTypeP", "DefaultThreadingModel"]
+- ["13BrightFutures21InvalidationTokenTypeP", "ExecutionContext"]
+- ["13BrightFutures21InvalidationTokenTypeP", "Future"]
+- ["13BrightFutures21InvalidationTokenTypeP", "NoError"]
+- ["13BrightFutures21InvalidationTokenTypeP", "NoValue"]
+- ["13BrightFutures21InvalidationTokenTypeP", ""]
+- ["13BrightFutures21InvalidationTokenTypeP", "future"]
+- ["13BrightFutures21InvalidationTokenTypeP", "invalidate"]
+- ["13BrightFutures21InvalidationTokenTypeP", "isInvalid"]
+- ["13BrightFutures21InvalidationTokenTypeP", "validContext"]
+- ["13BrightFutures27ManualInvalidationTokenTypeP", "Future"]
+- ["13BrightFutures27ManualInvalidationTokenTypeP", ""]
+- ["13BrightFutures27ManualInvalidationTokenTypeP", "future"]
+- ["13BrightFutures27ManualInvalidationTokenTypeP", "invalidate"]
+- ["13BrightFutures27ManualInvalidationTokenTypeP", "isInvalid"]
+- ["13BrightFutures27ManualInvalidationTokenTypeP", "validContext"]
+- !private ["13BrightFutures16MutableAsyncTypeP", "failure"]
+- ["13BrightFutures16MutableAsyncTypeP", "init"]
+- !private ["13BrightFutures16MutableAsyncTypeP", "isCompleted"]
+depends-nominal:
+- "13BrightFutures5AsyncC"
+- "13BrightFutures9AsyncTypeP"
+- "13BrightFutures0aB5ErrorO"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- !private "SQ"
+- !private "s5ErrorP"
+- "13BrightFutures6FutureC"
+- "13BrightFutures17InvalidationTokenC"
+- "13BrightFutures21InvalidationTokenTypeP"
+- "13BrightFutures27ManualInvalidationTokenTypeP"
+- "13BrightFutures16MutableAsyncTypeP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/Result.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "0a8a4e179bc75e0463339451a2c2fdd0"

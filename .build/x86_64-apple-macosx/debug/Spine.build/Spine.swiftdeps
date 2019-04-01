@@ -1,0 +1,21 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Spine"
+provides-nominal:
+- "5SpineAAV"
+provides-member:
+- ["5SpineAAV", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "Spine"
+- "StringLiteralType"
+depends-member:
+- ["5SpineAAV", "init"]
+- ["5SpineAAV", "text"]
+depends-nominal:
+- "5SpineAAV"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+interface-hash: "91d72d746f722ea63c660f67835a4cec"

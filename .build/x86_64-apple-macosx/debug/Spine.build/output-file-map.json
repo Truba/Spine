@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/Spine.build/master.swiftdeps"
+  },
+  "/Users/truba/work/Testing/Spine/Sources/Spine/Spine.swift": {
+    "dependencies": "/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/Spine.build/Spine.d",
+    "object": "/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/Spine.build/Spine.swift.o",
+    "swiftmodule": "/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/Spine.build/Spine~partial.swiftmodule",
+    "swift-dependencies": "/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/Spine.build/Spine.swiftdeps"
+  }
+}

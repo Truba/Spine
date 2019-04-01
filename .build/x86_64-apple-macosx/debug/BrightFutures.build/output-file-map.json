@@ -1,0 +1,95 @@
+{
+  "": {
+    "swift-dependencies": "/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/BrightFutures.build/master.swiftdeps"
+  },
+  "/Users/truba/work/Testing/Spine/.build/checkouts/BrightFutures/Sources/BrightFutures/Async.swift": {
+    "dependencies": "/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/BrightFutures.build/Async.d",
+    "object": "/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/BrightFutures.build/Async.swift.o",
+    "swiftmodule": "/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/BrightFutures.build/Async~partial.swiftmodule",
+    "swift-dependencies": "/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/BrightFutures.build/Async.swiftdeps"
+  },
+  "/Users/truba/work/Testing/Spine/.build/checkouts/BrightFutures/Sources/BrightFutures/AsyncType+Debug.swift": {
+    "dependencies": "/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/BrightFutures.build/AsyncType+Debug.d",
+    "object": "/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/BrightFutures.build/AsyncType+Debug.swift.o",
+    "swiftmodule": "/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/BrightFutures.build/AsyncType+Debug~partial.swiftmodule",
+    "swift-dependencies": "/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/BrightFutures.build/AsyncType+Debug.swiftdeps"
+  },
+  "/Users/truba/work/Testing/Spine/.build/checkouts/BrightFutures/Sources/BrightFutures/AsyncType+ResultType.swift": {
+    "dependencies": "/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/BrightFutures.build/AsyncType+ResultType.d",
+    "object": "/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/BrightFutures.build/AsyncType+ResultType.swift.o",
+    "swiftmodule": "/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/BrightFutures.build/AsyncType+ResultType~partial.swiftmodule",
+    "swift-dependencies": "/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/BrightFutures.build/AsyncType+ResultType.swiftdeps"
+  },
+  "/Users/truba/work/Testing/Spine/.build/checkouts/BrightFutures/Sources/BrightFutures/AsyncType.swift": {
+    "dependencies": "/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/BrightFutures.build/AsyncType.d",
+    "object": "/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/BrightFutures.build/AsyncType.swift.o",
+    "swiftmodule": "/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/BrightFutures.build/AsyncType~partial.swiftmodule",
+    "swift-dependencies": "/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/BrightFutures.build/AsyncType.swiftdeps"
+  },
+  "/Users/truba/work/Testing/Spine/.build/checkouts/BrightFutures/Sources/BrightFutures/Dispatch+BrightFutures.swift": {
+    "dependencies": "/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/BrightFutures.build/Dispatch+BrightFutures.d",
+    "object": "/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/BrightFutures.build/Dispatch+BrightFutures.swift.o",
+    "swiftmodule": "/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/BrightFutures.build/Dispatch+BrightFutures~partial.swiftmodule",
+    "swift-dependencies": "/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/BrightFutures.build/Dispatch+BrightFutures.swiftdeps"
+  },
+  "/Users/truba/work/Testing/Spine/.build/checkouts/BrightFutures/Sources/BrightFutures/Errors.swift": {
+    "dependencies": "/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/BrightFutures.build/Errors.d",
+    "object": "/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/BrightFutures.build/Errors.swift.o",
+    "swiftmodule": "/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/BrightFutures.build/Errors~partial.swiftmodule",
+    "swift-dependencies": "/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/BrightFutures.build/Errors.swiftdeps"
+  },
+  "/Users/truba/work/Testing/Spine/.build/checkouts/BrightFutures/Sources/BrightFutures/ExecutionContext.swift": {
+    "dependencies": "/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/BrightFutures.build/ExecutionContext.d",
+    "object": "/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/BrightFutures.build/ExecutionContext.swift.o",
+    "swiftmodule": "/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/BrightFutures.build/ExecutionContext~partial.swiftmodule",
+    "swift-dependencies": "/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/BrightFutures.build/ExecutionContext.swiftdeps"
+  },
+  "/Users/truba/work/Testing/Spine/.build/checkouts/BrightFutures/Sources/BrightFutures/Future.swift": {
+    "dependencies": "/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/BrightFutures.build/Future.d",
+    "object": "/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/BrightFutures.build/Future.swift.o",
+    "swiftmodule": "/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/BrightFutures.build/Future~partial.swiftmodule",
+    "swift-dependencies": "/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/BrightFutures.build/Future.swiftdeps"
+  },
+  "/Users/truba/work/Testing/Spine/.build/checkouts/BrightFutures/Sources/BrightFutures/InvalidationToken.swift": {
+    "dependencies": "/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/BrightFutures.build/InvalidationToken.d",
+    "object": "/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/BrightFutures.build/InvalidationToken.swift.o",
+    "swiftmodule": "/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/BrightFutures.build/InvalidationToken~partial.swiftmodule",
+    "swift-dependencies": "/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/BrightFutures.build/InvalidationToken.swiftdeps"
+  },
+  "/Users/truba/work/Testing/Spine/.build/checkouts/BrightFutures/Sources/BrightFutures/MutableAsyncType+ResultType.swift": {
+    "dependencies": "/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/BrightFutures.build/MutableAsyncType+ResultType.d",
+    "object": "/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/BrightFutures.build/MutableAsyncType+ResultType.swift.o",
+    "swiftmodule": "/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/BrightFutures.build/MutableAsyncType+ResultType~partial.swiftmodule",
+    "swift-dependencies": "/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/BrightFutures.build/MutableAsyncType+ResultType.swiftdeps"
+  },
+  "/Users/truba/work/Testing/Spine/.build/checkouts/BrightFutures/Sources/BrightFutures/MutableAsyncType.swift": {
+    "dependencies": "/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/BrightFutures.build/MutableAsyncType.d",
+    "object": "/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/BrightFutures.build/MutableAsyncType.swift.o",
+    "swiftmodule": "/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/BrightFutures.build/MutableAsyncType~partial.swiftmodule",
+    "swift-dependencies": "/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/BrightFutures.build/MutableAsyncType.swiftdeps"
+  },
+  "/Users/truba/work/Testing/Spine/.build/checkouts/BrightFutures/Sources/BrightFutures/NSOperationQueue+BrightFutures.swift": {
+    "dependencies": "/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/BrightFutures.build/NSOperationQueue+BrightFutures.d",
+    "object": "/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/BrightFutures.build/NSOperationQueue+BrightFutures.swift.o",
+    "swiftmodule": "/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/BrightFutures.build/NSOperationQueue+BrightFutures~partial.swiftmodule",
+    "swift-dependencies": "/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/BrightFutures.build/NSOperationQueue+BrightFutures.swiftdeps"
+  },
+  "/Users/truba/work/Testing/Spine/.build/checkouts/BrightFutures/Sources/BrightFutures/Promise.swift": {
+    "dependencies": "/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/BrightFutures.build/Promise.d",
+    "object": "/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/BrightFutures.build/Promise.swift.o",
+    "swiftmodule": "/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/BrightFutures.build/Promise~partial.swiftmodule",
+    "swift-dependencies": "/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/BrightFutures.build/Promise.swiftdeps"
+  },
+  "/Users/truba/work/Testing/Spine/.build/checkouts/BrightFutures/Sources/BrightFutures/Result+BrightFutures.swift": {
+    "dependencies": "/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/BrightFutures.build/Result+BrightFutures.d",
+    "object": "/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/BrightFutures.build/Result+BrightFutures.swift.o",
+    "swiftmodule": "/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/BrightFutures.build/Result+BrightFutures~partial.swiftmodule",
+    "swift-dependencies": "/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/BrightFutures.build/Result+BrightFutures.swiftdeps"
+  },
+  "/Users/truba/work/Testing/Spine/.build/checkouts/BrightFutures/Sources/BrightFutures/SequenceType+BrightFutures.swift": {
+    "dependencies": "/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/BrightFutures.build/SequenceType+BrightFutures.d",
+    "object": "/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/BrightFutures.build/SequenceType+BrightFutures.swift.o",
+    "swiftmodule": "/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/BrightFutures.build/SequenceType+BrightFutures~partial.swiftmodule",
+    "swift-dependencies": "/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/BrightFutures.build/SequenceType+BrightFutures.swiftdeps"
+  }
+}
