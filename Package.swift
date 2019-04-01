@@ -24,9 +24,6 @@ let package = Package(
             name: "Spine",
             dependencies: ["BrightFutures", "SwiftyJSON", "Result"],
             path: "Sources"
-            ),
-        .testTarget(
-            name: "SpineTests",
-            dependencies: ["Spine"]),
+            )
     ]
 )
