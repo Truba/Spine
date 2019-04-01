@@ -1,0 +1,408 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Query"
+- "Pagination"
+- "PageBasedPagination"
+- "OffsetBasedPagination"
+provides-nominal:
+- "5Spine5QueryV"
+- "5Spine10PaginationP"
+- "5Spine19PageBasedPaginationV"
+- "5Spine21OffsetBasedPaginationV"
+provides-member:
+- ["5Spine5QueryV", ""]
+- ["5Spine10PaginationP", ""]
+- ["5Spine19PageBasedPaginationV", ""]
+- ["5Spine21OffsetBasedPaginationV", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!"
+- !private "!="
+- !private "=="
+- !private "AnyObject"
+- "AssignmentPrecedence"
+- "CastingPrecedence"
+- "Int"
+- "NSComparisonPredicate"
+- !private "NSExpression"
+- "NSSortDescriptor"
+- "OffsetBasedPagination"
+- "PageBasedPagination"
+- "Pagination"
+- "Query"
+- "Resource"
+- "ResourceCollection"
+- "ResourceType"
+- "String"
+- "URL"
+- !private "assert"
+- !private "assertionFailure"
+depends-member:
+- !private ["Sa", "append"]
+- !private ["Sa", "contains"]
+- !private ["Sa", "filter"]
+- !private ["Sa", "first"]
+- !private ["SK", "append"]
+- !private ["SK", "contains"]
+- !private ["SK", "filter"]
+- !private ["SK", "first"]
+- ["s7CVarArgP", "Operator"]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "contains"]
+- !private ["s7CVarArgP", "field"]
+- !private ["s7CVarArgP", "fields"]
+- !private ["s7CVarArgP", "filter"]
+- !private ["s7CVarArgP", "first"]
+- !private ["s7CVarArgP", "id"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "resourceType"]
+- !private ["s7CVarArgP", "resourcesURL"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "url"]
+- !private ["Sl", "append"]
+- !private ["Sl", "contains"]
+- !private ["Sl", "filter"]
+- !private ["Sl", "first"]
+- !private ["Sl", "subscript"]
+- !private ["10Foundation15ContiguousBytesP", "append"]
+- !private ["10Foundation15ContiguousBytesP", "contains"]
+- !private ["10Foundation15ContiguousBytesP", "filter"]
+- !private ["10Foundation15ContiguousBytesP", "first"]
+- ["s28CustomDebugStringConvertibleP", "Operator"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "contains"]
+- !private ["s28CustomDebugStringConvertibleP", "field"]
+- !private ["s28CustomDebugStringConvertibleP", "fields"]
+- !private ["s28CustomDebugStringConvertibleP", "filter"]
+- !private ["s28CustomDebugStringConvertibleP", "first"]
+- !private ["s28CustomDebugStringConvertibleP", "id"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "resourceType"]
+- !private ["s28CustomDebugStringConvertibleP", "resourcesURL"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "url"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "contains"]
+- !private ["s17CustomReflectableP", "filter"]
+- !private ["s17CustomReflectableP", "first"]
+- !private ["s17CustomReflectableP", "subscript"]
+- ["s23CustomStringConvertibleP", "Operator"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s23CustomStringConvertibleP", "contains"]
+- !private ["s23CustomStringConvertibleP", "field"]
+- !private ["s23CustomStringConvertibleP", "fields"]
+- !private ["s23CustomStringConvertibleP", "filter"]
+- !private ["s23CustomStringConvertibleP", "first"]
+- !private ["s23CustomStringConvertibleP", "id"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "resourceType"]
+- !private ["s23CustomStringConvertibleP", "resourcesURL"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "url"]
+- !private ["10Foundation12DataProtocolP", "append"]
+- !private ["10Foundation12DataProtocolP", "contains"]
+- !private ["10Foundation12DataProtocolP", "filter"]
+- !private ["10Foundation12DataProtocolP", "first"]
+- !private ["Se", "append"]
+- !private ["Se", "contains"]
+- !private ["Se", "filter"]
+- !private ["Se", "first"]
+- !private ["Se", "init"]
+- !private ["Se", "subscript"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- !private ["SD", "subscript"]
+- !private ["SE", "append"]
+- !private ["SE", "contains"]
+- !private ["SE", "filter"]
+- !private ["SE", "first"]
+- !private ["SE", "init"]
+- !private ["SE", "subscript"]
+- ["SQ", "Operator"]
+- !private ["SQ", "append"]
+- !private ["SQ", "contains"]
+- !private ["SQ", "direct"]
+- !private ["SQ", "equalTo"]
+- !private ["SQ", "field"]
+- !private ["SQ", "fields"]
+- !private ["SQ", "filter"]
+- !private ["SQ", "first"]
+- !private ["SQ", "greaterThan"]
+- !private ["SQ", "greaterThanOrEqualTo"]
+- !private ["SQ", "id"]
+- !private ["SQ", "init"]
+- !private ["SQ", "lessThan"]
+- !private ["SQ", "lessThanOrEqualTo"]
+- !private ["SQ", "notEqualTo"]
+- !private ["SQ", "resourceType"]
+- !private ["SQ", "resourcesURL"]
+- !private ["SQ", "subscript"]
+- !private ["SQ", "url"]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "contains"]
+- !private ["s25ExpressibleByArrayLiteralP", "filter"]
+- !private ["s25ExpressibleByArrayLiteralP", "first"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["5Spine5FieldC", "name"]
+- !private ["5Spine5FieldC", "serializedName"]
+- ["SH", "Operator"]
+- !private ["SH", "append"]
+- !private ["SH", "contains"]
+- !private ["SH", "direct"]
+- !private ["SH", "equalTo"]
+- !private ["SH", "field"]
+- !private ["SH", "fields"]
+- !private ["SH", "filter"]
+- !private ["SH", "first"]
+- !private ["SH", "greaterThan"]
+- !private ["SH", "greaterThanOrEqualTo"]
+- !private ["SH", "id"]
+- !private ["SH", "init"]
+- !private ["SH", "lessThan"]
+- !private ["SH", "lessThanOrEqualTo"]
+- !private ["SH", "notEqualTo"]
+- !private ["SH", "resourceType"]
+- !private ["SH", "resourcesURL"]
+- !private ["SH", "subscript"]
+- !private ["SH", "url"]
+- !private ["So29NSComparisonPredicateModifierV", "direct"]
+- !private ["SM", "append"]
+- !private ["SM", "contains"]
+- !private ["SM", "filter"]
+- !private ["SM", "first"]
+- !private ["10Foundation19MutableDataProtocolP", "append"]
+- !private ["10Foundation19MutableDataProtocolP", "contains"]
+- !private ["10Foundation19MutableDataProtocolP", "filter"]
+- !private ["10Foundation19MutableDataProtocolP", "first"]
+- ["So8NSCodingP", "Operator"]
+- !private ["So8NSCodingP", "field"]
+- !private ["So8NSCodingP", "fields"]
+- !private ["So8NSCodingP", "id"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "resourceType"]
+- !private ["So8NSCodingP", "resourcesURL"]
+- !private ["So8NSCodingP", "url"]
+- ["So21NSComparisonPredicateC", "Operator"]
+- !private ["So21NSComparisonPredicateC", "init"]
+- ["So9NSCopyingP", "Operator"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So12NSExpressionC", "init"]
+- ["So8NSObjectC", "Operator"]
+- !private ["So8NSObjectC", "field"]
+- !private ["So8NSObjectC", "fields"]
+- !private ["So8NSObjectC", "id"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "resourceType"]
+- !private ["So8NSObjectC", "resourcesURL"]
+- !private ["So8NSObjectC", "url"]
+- ["So8NSObjectP", "Operator"]
+- !private ["So8NSObjectP", "field"]
+- !private ["So8NSObjectP", "fields"]
+- !private ["So8NSObjectP", "id"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "resourceType"]
+- !private ["So8NSObjectP", "resourcesURL"]
+- !private ["So8NSObjectP", "url"]
+- ["So11NSPredicateC", "Operator"]
+- !private ["So11NSPredicateC", "init"]
+- ["So14NSSecureCodingP", "Operator"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So16NSSortDescriptorC", "init"]
+- ["5Spine21OffsetBasedPaginationV", "Int"]
+- ["5Spine21OffsetBasedPaginationV", "deinit"]
+- ["5Spine21OffsetBasedPaginationV", "init"]
+- ["5Spine21OffsetBasedPaginationV", "limit"]
+- ["5Spine21OffsetBasedPaginationV", "offset"]
+- !private ["So23NSPredicateOperatorTypeV", "equalTo"]
+- !private ["So23NSPredicateOperatorTypeV", "greaterThan"]
+- !private ["So23NSPredicateOperatorTypeV", "greaterThanOrEqualTo"]
+- !private ["So23NSPredicateOperatorTypeV", "lessThan"]
+- !private ["So23NSPredicateOperatorTypeV", "lessThanOrEqualTo"]
+- !private ["So23NSPredicateOperatorTypeV", "notEqualTo"]
+- ["5Spine19PageBasedPaginationV", "Int"]
+- ["5Spine19PageBasedPaginationV", "deinit"]
+- ["5Spine19PageBasedPaginationV", "init"]
+- ["5Spine19PageBasedPaginationV", "pageNumber"]
+- ["5Spine19PageBasedPaginationV", "pageSize"]
+- ["5Spine10PaginationP", ""]
+- !private ["5Spine10PaginationP", "limit"]
+- !private ["5Spine10PaginationP", "offset"]
+- !private ["5Spine10PaginationP", "pageNumber"]
+- !private ["5Spine10PaginationP", "pageSize"]
+- !private ["5Spine5QueryV", "AnyObject"]
+- ["5Spine5QueryV", "NSComparisonPredicate"]
+- !private ["5Spine5QueryV", "NSExpression"]
+- ["5Spine5QueryV", "NSSortDescriptor"]
+- ["5Spine5QueryV", "Pagination"]
+- ["5Spine5QueryV", "Resource"]
+- ["5Spine5QueryV", "ResourceCollection"]
+- ["5Spine5QueryV", "ResourceType"]
+- ["5Spine5QueryV", "String"]
+- ["5Spine5QueryV", "URL"]
+- ["5Spine5QueryV", "addAscendingOrder"]
+- ["5Spine5QueryV", "addDescendingOrder"]
+- ["5Spine5QueryV", "addPredicateWithField"]
+- ["5Spine5QueryV", "addPredicateWithKey"]
+- !private ["5Spine5QueryV", "assert"]
+- !private ["5Spine5QueryV", "assertionFailure"]
+- ["5Spine5QueryV", "fields"]
+- ["5Spine5QueryV", "filters"]
+- ["5Spine5QueryV", "include"]
+- ["5Spine5QueryV", "includes"]
+- ["5Spine5QueryV", "init"]
+- ["5Spine5QueryV", "paginate"]
+- ["5Spine5QueryV", "pagination"]
+- ["5Spine5QueryV", "removeInclude"]
+- ["5Spine5QueryV", "resourceIDs"]
+- ["5Spine5QueryV", "resourceType"]
+- ["5Spine5QueryV", "restrictFieldsOfResourceType"]
+- ["5Spine5QueryV", "restrictFieldsTo"]
+- ["5Spine5QueryV", "sortDescriptors"]
+- ["5Spine5QueryV", "url"]
+- ["5Spine5QueryV", "whereAttribute"]
+- ["5Spine5QueryV", "whereRelationship"]
+- !private ["Sk", "append"]
+- !private ["Sk", "contains"]
+- !private ["Sk", "filter"]
+- !private ["Sk", "first"]
+- !private ["Sm", "append"]
+- !private ["Sm", "contains"]
+- !private ["Sm", "filter"]
+- !private ["Sm", "first"]
+- !private ["SY", "direct"]
+- !private ["SY", "equalTo"]
+- !private ["SY", "greaterThan"]
+- !private ["SY", "greaterThanOrEqualTo"]
+- !private ["SY", "lessThan"]
+- !private ["SY", "lessThanOrEqualTo"]
+- !private ["SY", "notEqualTo"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["5Spine8ResourceC", "field"]
+- !private ["5Spine8ResourceC", "fields"]
+- !private ["5Spine8ResourceC", "id"]
+- !private ["5Spine8ResourceC", "resourceType"]
+- !private ["5Spine8ResourceC", "url"]
+- !private ["5Spine18ResourceCollectionC", "resourcesURL"]
+- !private ["ST", "append"]
+- !private ["ST", "contains"]
+- !private ["ST", "filter"]
+- !private ["ST", "first"]
+- !private ["ST", "resourcesURL"]
+- !private ["ST", "subscript"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["10Foundation3URLV", "init"]
+- !private ["s14_ArrayProtocolP", "append"]
+- !private ["s14_ArrayProtocolP", "contains"]
+- !private ["s14_ArrayProtocolP", "filter"]
+- !private ["s14_ArrayProtocolP", "first"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "contains"]
+- !private ["s24_DestructorSafeContainerP", "filter"]
+- !private ["s24_DestructorSafeContainerP", "first"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "init"]
+- !private ["s19_HasContiguousBytesP", "append"]
+- !private ["s19_HasContiguousBytesP", "contains"]
+- !private ["s19_HasContiguousBytesP", "filter"]
+- !private ["s19_HasContiguousBytesP", "first"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "append"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "contains"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "filter"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "first"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "Operator"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "field"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "fields"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "id"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "resourceType"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "resourcesURL"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "url"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "contains"]
+- !private ["s21_ObjectiveCBridgeableP", "filter"]
+- !private ["s21_ObjectiveCBridgeableP", "first"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+depends-nominal:
+- !private "Sa"
+- !private "SK"
+- "s7CVarArgP"
+- !private "Sl"
+- !private "10Foundation15ContiguousBytesP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- !private "Se"
+- !private "s26DefaultStringInterpolationV"
+- !private "SD"
+- !private "SE"
+- "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- !private "5Spine5FieldC"
+- "SH"
+- !private "So29NSComparisonPredicateModifierV"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- "So8NSCodingP"
+- "So21NSComparisonPredicateC"
+- "So9NSCopyingP"
+- !private "So12NSExpressionC"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "So11NSPredicateC"
+- "So14NSSecureCodingP"
+- !private "So16NSSortDescriptorC"
+- "5Spine21OffsetBasedPaginationV"
+- !private "So23NSPredicateOperatorTypeV"
+- "5Spine19PageBasedPaginationV"
+- "5Spine10PaginationP"
+- "5Spine5QueryV"
+- !private "Sk"
+- !private "Sm"
+- !private "SY"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "5Spine8ResourceC"
+- !private "5Spine18ResourceCollectionC"
+- !private "ST"
+- !private "s27StringInterpolationProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "10Foundation3URLV"
+- !private "s14_ArrayProtocolP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s34_ExpressibleByFileReferenceLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/SwiftyJSON.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/BrightFutures.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/Result.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "7ef4f8de887cb9b9f40a3f7ea2e91e11"

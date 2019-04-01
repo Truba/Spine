@@ -1,0 +1,601 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "SerializeOperation"
+provides-nominal:
+- "5Spine18SerializeOperationC"
+provides-member:
+- ["5Spine18SerializeOperationC", ""]
+provides-dynamic-lookup:
+- "main"
+depends-top-level:
+- !private "!"
+- !private "!="
+- !private "=="
+- !private "??"
+- !private "AnyObject"
+- "AssignmentPrecedence"
+- !private "Attribute"
+- !private "BooleanLiteralType"
+- "CastingPrecedence"
+- "Data"
+- "Failable"
+- "JSONAPIDocument"
+- !private "JSONSerialization"
+- "KeyFormatter"
+- !private "NSError"
+- !private "NSNull"
+- "Operation"
+- !private "Relationship"
+- "Resource"
+- "ResourceCollection"
+- !private "ResourceIdentifier"
+- "ResourceType"
+- "SerializationOptions"
+- "SerializeOperation"
+- "SerializerError"
+- !private "Spine"
+- "String"
+- !private "StringLiteralType"
+- !private "ToManyRelationship"
+- !private "ToOneRelationship"
+- !private "UnicodeScalarType"
+- "ValueFormatterRegistry"
+depends-member:
+- !private ["Sa", "count"]
+- !private ["Sa", "filter"]
+- !private ["Sa", "first"]
+- !private ["Sa", "map"]
+- !private ["5Spine9AttributeC", "isReadOnly"]
+- !private ["5Spine9AttributeC", "name"]
+- !private ["SK", "count"]
+- !private ["SK", "filter"]
+- !private ["SK", "first"]
+- !private ["SK", "map"]
+- !private ["s7CVarArgP", "Failable"]
+- !private ["s7CVarArgP", "JSONSerialization"]
+- !private ["s7CVarArgP", "NSNull"]
+- !private ["s7CVarArgP", "ResourceIdentifier"]
+- !private ["s7CVarArgP", "SerializerError"]
+- !private ["s7CVarArgP", "Spine"]
+- !private ["s7CVarArgP", "String"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "addAttributes"]
+- !private ["s7CVarArgP", "addRelationships"]
+- !private ["s7CVarArgP", "addToManyRelationship"]
+- !private ["s7CVarArgP", "addToOneRelationship"]
+- !private ["s7CVarArgP", "count"]
+- !private ["s7CVarArgP", "data"]
+- !private ["s7CVarArgP", "fields"]
+- !private ["s7CVarArgP", "filter"]
+- !private ["s7CVarArgP", "first"]
+- !private ["s7CVarArgP", "id"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "keyFormatter"]
+- !private ["s7CVarArgP", "map"]
+- !private ["s7CVarArgP", "options"]
+- !private ["s7CVarArgP", "resourceType"]
+- !private ["s7CVarArgP", "resources"]
+- !private ["s7CVarArgP", "result"]
+- !private ["s7CVarArgP", "serializeResource"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "value"]
+- !private ["s7CVarArgP", "valueFormatters"]
+- !private ["Sl", "count"]
+- !private ["Sl", "filter"]
+- !private ["Sl", "first"]
+- !private ["Sl", "init"]
+- !private ["Sl", "map"]
+- !private ["Sl", "subscript"]
+- !private ["10Foundation15ContiguousBytesP", "count"]
+- !private ["10Foundation15ContiguousBytesP", "filter"]
+- !private ["10Foundation15ContiguousBytesP", "first"]
+- !private ["10Foundation15ContiguousBytesP", "map"]
+- !private ["s28CustomDebugStringConvertibleP", "Failable"]
+- !private ["s28CustomDebugStringConvertibleP", "JSONSerialization"]
+- !private ["s28CustomDebugStringConvertibleP", "NSNull"]
+- !private ["s28CustomDebugStringConvertibleP", "ResourceIdentifier"]
+- !private ["s28CustomDebugStringConvertibleP", "SerializerError"]
+- !private ["s28CustomDebugStringConvertibleP", "Spine"]
+- !private ["s28CustomDebugStringConvertibleP", "String"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "addAttributes"]
+- !private ["s28CustomDebugStringConvertibleP", "addRelationships"]
+- !private ["s28CustomDebugStringConvertibleP", "addToManyRelationship"]
+- !private ["s28CustomDebugStringConvertibleP", "addToOneRelationship"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "data"]
+- !private ["s28CustomDebugStringConvertibleP", "fields"]
+- !private ["s28CustomDebugStringConvertibleP", "filter"]
+- !private ["s28CustomDebugStringConvertibleP", "first"]
+- !private ["s28CustomDebugStringConvertibleP", "id"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "keyFormatter"]
+- !private ["s28CustomDebugStringConvertibleP", "map"]
+- !private ["s28CustomDebugStringConvertibleP", "options"]
+- !private ["s28CustomDebugStringConvertibleP", "resourceType"]
+- !private ["s28CustomDebugStringConvertibleP", "resources"]
+- !private ["s28CustomDebugStringConvertibleP", "result"]
+- !private ["s28CustomDebugStringConvertibleP", "serializeResource"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "value"]
+- !private ["s28CustomDebugStringConvertibleP", "valueFormatters"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "filter"]
+- !private ["s17CustomReflectableP", "first"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "map"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "Failable"]
+- !private ["s23CustomStringConvertibleP", "JSONSerialization"]
+- !private ["s23CustomStringConvertibleP", "NSNull"]
+- !private ["s23CustomStringConvertibleP", "ResourceIdentifier"]
+- !private ["s23CustomStringConvertibleP", "SerializerError"]
+- !private ["s23CustomStringConvertibleP", "Spine"]
+- !private ["s23CustomStringConvertibleP", "String"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "addAttributes"]
+- !private ["s23CustomStringConvertibleP", "addRelationships"]
+- !private ["s23CustomStringConvertibleP", "addToManyRelationship"]
+- !private ["s23CustomStringConvertibleP", "addToOneRelationship"]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "data"]
+- !private ["s23CustomStringConvertibleP", "fields"]
+- !private ["s23CustomStringConvertibleP", "filter"]
+- !private ["s23CustomStringConvertibleP", "first"]
+- !private ["s23CustomStringConvertibleP", "id"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "keyFormatter"]
+- !private ["s23CustomStringConvertibleP", "map"]
+- !private ["s23CustomStringConvertibleP", "options"]
+- !private ["s23CustomStringConvertibleP", "resourceType"]
+- !private ["s23CustomStringConvertibleP", "resources"]
+- !private ["s23CustomStringConvertibleP", "result"]
+- !private ["s23CustomStringConvertibleP", "serializeResource"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "value"]
+- !private ["s23CustomStringConvertibleP", "valueFormatters"]
+- !private ["10Foundation12DataProtocolP", "count"]
+- !private ["10Foundation12DataProtocolP", "filter"]
+- !private ["10Foundation12DataProtocolP", "first"]
+- !private ["10Foundation12DataProtocolP", "map"]
+- !private ["Se", "count"]
+- !private ["Se", "filter"]
+- !private ["Se", "first"]
+- !private ["Se", "init"]
+- !private ["Se", "map"]
+- !private ["Se", "subscript"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- !private ["SD", "init"]
+- !private ["SD", "subscript"]
+- !private ["SE", "count"]
+- !private ["SE", "filter"]
+- !private ["SE", "first"]
+- !private ["SE", "init"]
+- !private ["SE", "map"]
+- !private ["SE", "subscript"]
+- !private ["SQ", "Failable"]
+- ["SQ", "IncludeID"]
+- !private ["SQ", "IncludeToMany"]
+- !private ["SQ", "IncludeToOne"]
+- !private ["SQ", "JSONSerialization"]
+- !private ["SQ", "NSNull"]
+- !private ["SQ", "OmitNullValues"]
+- !private ["SQ", "ResourceIdentifier"]
+- !private ["SQ", "SerializerError"]
+- !private ["SQ", "Spine"]
+- !private ["SQ", "String"]
+- ["SQ", ""]
+- !private ["SQ", "addAttributes"]
+- !private ["SQ", "addRelationships"]
+- !private ["SQ", "addToManyRelationship"]
+- !private ["SQ", "addToOneRelationship"]
+- !private ["SQ", "contains"]
+- !private ["SQ", "count"]
+- !private ["SQ", "data"]
+- !private ["SQ", "fields"]
+- !private ["SQ", "filter"]
+- !private ["SQ", "first"]
+- !private ["SQ", "id"]
+- !private ["SQ", "init"]
+- !private ["SQ", "jsonSerializationError"]
+- !private ["SQ", "keyFormatter"]
+- !private ["SQ", "map"]
+- !private ["SQ", "options"]
+- !private ["SQ", "resourceType"]
+- !private ["SQ", "resources"]
+- !private ["SQ", "result"]
+- !private ["SQ", "serializeResource"]
+- !private ["SQ", "serializing"]
+- !private ["SQ", "subscript"]
+- !private ["SQ", "toDictionary"]
+- !private ["SQ", "value"]
+- !private ["SQ", "valueFormatters"]
+- !private ["s5ErrorP", "jsonSerializationError"]
+- ["s25ExpressibleByArrayLiteralP", "IncludeID"]
+- !private ["s25ExpressibleByArrayLiteralP", "IncludeToMany"]
+- !private ["s25ExpressibleByArrayLiteralP", "IncludeToOne"]
+- !private ["s25ExpressibleByArrayLiteralP", "OmitNullValues"]
+- !private ["s25ExpressibleByArrayLiteralP", "contains"]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- !private ["s25ExpressibleByArrayLiteralP", "filter"]
+- !private ["s25ExpressibleByArrayLiteralP", "first"]
+- !private ["s25ExpressibleByArrayLiteralP", "map"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "init"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["5Spine8FailableO", "failure"]
+- !private ["5Spine8FailableO", "success"]
+- !private ["5Spine5FieldC", "isReadOnly"]
+- !private ["5Spine5FieldC", "linkedType"]
+- !private ["5Spine5FieldC", "name"]
+- !private ["SH", "Failable"]
+- !private ["SH", "JSONSerialization"]
+- !private ["SH", "NSNull"]
+- !private ["SH", "ResourceIdentifier"]
+- !private ["SH", "SerializerError"]
+- !private ["SH", "Spine"]
+- !private ["SH", "String"]
+- ["SH", ""]
+- !private ["SH", "addAttributes"]
+- !private ["SH", "addRelationships"]
+- !private ["SH", "addToManyRelationship"]
+- !private ["SH", "addToOneRelationship"]
+- !private ["SH", "count"]
+- !private ["SH", "data"]
+- !private ["SH", "fields"]
+- !private ["SH", "filter"]
+- !private ["SH", "first"]
+- !private ["SH", "id"]
+- !private ["SH", "init"]
+- !private ["SH", "keyFormatter"]
+- !private ["SH", "map"]
+- !private ["SH", "options"]
+- !private ["SH", "resourceType"]
+- !private ["SH", "resources"]
+- !private ["SH", "result"]
+- !private ["SH", "serializeResource"]
+- !private ["SH", "serializing"]
+- !private ["SH", "subscript"]
+- !private ["SH", "value"]
+- !private ["SH", "valueFormatters"]
+- !private ["5Spine15JSONAPIDocumentV", "data"]
+- !private ["So19NSJSONSerializationC", "data"]
+- !private ["5Spine12KeyFormatterP", "format"]
+- !private ["5Spine9LogDomainO", "serializing"]
+- !private ["SM", "count"]
+- !private ["SM", "filter"]
+- !private ["SM", "first"]
+- !private ["SM", "map"]
+- !private ["10Foundation19MutableDataProtocolP", "count"]
+- !private ["10Foundation19MutableDataProtocolP", "filter"]
+- !private ["10Foundation19MutableDataProtocolP", "first"]
+- !private ["10Foundation19MutableDataProtocolP", "map"]
+- !private ["So8NSCodingP", "fields"]
+- !private ["So8NSCodingP", "id"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "resourceType"]
+- !private ["So8NSCodingP", "resources"]
+- !private ["So8NSCodingP", "value"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So6NSNullC", "init"]
+- !private ["So8NSObjectC", "AnyObject"]
+- !private ["So8NSObjectC", "Attribute"]
+- ["So8NSObjectC", "Data"]
+- ["So8NSObjectC", "Failable"]
+- ["So8NSObjectC", "JSONAPIDocument"]
+- !private ["So8NSObjectC", "JSONSerialization"]
+- ["So8NSObjectC", "KeyFormatter"]
+- !private ["So8NSObjectC", "NSError"]
+- !private ["So8NSObjectC", "NSNull"]
+- !private ["So8NSObjectC", "Relationship"]
+- ["So8NSObjectC", "Resource"]
+- ["So8NSObjectC", "ResourceCollection"]
+- !private ["So8NSObjectC", "ResourceIdentifier"]
+- ["So8NSObjectC", "ResourceType"]
+- ["So8NSObjectC", "SerializationOptions"]
+- ["So8NSObjectC", "SerializerError"]
+- !private ["So8NSObjectC", "Spine"]
+- ["So8NSObjectC", "String"]
+- !private ["So8NSObjectC", "ToManyRelationship"]
+- !private ["So8NSObjectC", "ToOneRelationship"]
+- ["So8NSObjectC", "ValueFormatterRegistry"]
+- ["So8NSObjectC", "addAttributes"]
+- ["So8NSObjectC", "addRelationships"]
+- ["So8NSObjectC", "addToManyRelationship"]
+- ["So8NSObjectC", "addToOneRelationship"]
+- !private ["So8NSObjectC", "data"]
+- !private ["So8NSObjectC", "fields"]
+- !private ["So8NSObjectC", "id"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "keyFormatter"]
+- ["So8NSObjectC", "main"]
+- ["So8NSObjectC", "options"]
+- !private ["So8NSObjectC", "resourceType"]
+- ["So8NSObjectC", "resources"]
+- ["So8NSObjectC", "result"]
+- ["So8NSObjectC", "serializeResource"]
+- !private ["So8NSObjectC", "value"]
+- ["So8NSObjectC", "valueFormatters"]
+- !private ["So8NSObjectP", "Failable"]
+- !private ["So8NSObjectP", "JSONSerialization"]
+- !private ["So8NSObjectP", "NSNull"]
+- !private ["So8NSObjectP", "ResourceIdentifier"]
+- !private ["So8NSObjectP", "SerializerError"]
+- !private ["So8NSObjectP", "Spine"]
+- !private ["So8NSObjectP", "String"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "addAttributes"]
+- !private ["So8NSObjectP", "addRelationships"]
+- !private ["So8NSObjectP", "addToManyRelationship"]
+- !private ["So8NSObjectP", "addToOneRelationship"]
+- !private ["So8NSObjectP", "data"]
+- !private ["So8NSObjectP", "fields"]
+- !private ["So8NSObjectP", "id"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "keyFormatter"]
+- !private ["So8NSObjectP", "options"]
+- !private ["So8NSObjectP", "resourceType"]
+- !private ["So8NSObjectP", "resources"]
+- !private ["So8NSObjectP", "result"]
+- !private ["So8NSObjectP", "serializeResource"]
+- !private ["So8NSObjectP", "value"]
+- !private ["So8NSObjectP", "valueFormatters"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So11NSOperationC", "AnyObject"]
+- !private ["So11NSOperationC", "Attribute"]
+- ["So11NSOperationC", "Data"]
+- ["So11NSOperationC", "Failable"]
+- ["So11NSOperationC", "JSONAPIDocument"]
+- !private ["So11NSOperationC", "JSONSerialization"]
+- ["So11NSOperationC", "KeyFormatter"]
+- !private ["So11NSOperationC", "NSError"]
+- !private ["So11NSOperationC", "NSNull"]
+- !private ["So11NSOperationC", "Relationship"]
+- ["So11NSOperationC", "Resource"]
+- ["So11NSOperationC", "ResourceCollection"]
+- !private ["So11NSOperationC", "ResourceIdentifier"]
+- ["So11NSOperationC", "ResourceType"]
+- ["So11NSOperationC", "SerializationOptions"]
+- ["So11NSOperationC", "SerializerError"]
+- !private ["So11NSOperationC", "Spine"]
+- ["So11NSOperationC", "String"]
+- !private ["So11NSOperationC", "ToManyRelationship"]
+- !private ["So11NSOperationC", "ToOneRelationship"]
+- ["So11NSOperationC", "ValueFormatterRegistry"]
+- ["So11NSOperationC", ""]
+- ["So11NSOperationC", "addAttributes"]
+- ["So11NSOperationC", "addRelationships"]
+- ["So11NSOperationC", "addToManyRelationship"]
+- ["So11NSOperationC", "addToOneRelationship"]
+- ["So11NSOperationC", "init"]
+- ["So11NSOperationC", "keyFormatter"]
+- ["So11NSOperationC", "main"]
+- ["So11NSOperationC", "options"]
+- ["So11NSOperationC", "resources"]
+- ["So11NSOperationC", "result"]
+- ["So11NSOperationC", "serializeResource"]
+- ["So11NSOperationC", "valueFormatters"]
+- ["s9OptionSetP", "IncludeID"]
+- !private ["s9OptionSetP", "IncludeToMany"]
+- !private ["s9OptionSetP", "IncludeToOne"]
+- !private ["s9OptionSetP", "OmitNullValues"]
+- !private ["s9OptionSetP", "contains"]
+- !private ["Sk", "count"]
+- !private ["Sk", "filter"]
+- !private ["Sk", "first"]
+- !private ["Sk", "map"]
+- !private ["Sm", "count"]
+- !private ["Sm", "filter"]
+- !private ["Sm", "first"]
+- !private ["Sm", "map"]
+- ["SY", "IncludeID"]
+- !private ["SY", "IncludeToMany"]
+- !private ["SY", "IncludeToOne"]
+- !private ["SY", "OmitNullValues"]
+- !private ["SY", "contains"]
+- !private ["5Spine12RelationshipC", "isReadOnly"]
+- !private ["5Spine12RelationshipC", "linkedType"]
+- !private ["5Spine12RelationshipC", "name"]
+- !private ["5Spine8ResourceC", "deinit"]
+- !private ["5Spine8ResourceC", "fields"]
+- !private ["5Spine8ResourceC", "id"]
+- !private ["5Spine8ResourceC", "resourceType"]
+- !private ["5Spine8ResourceC", "value"]
+- !private ["5Spine18ResourceCollectionC", "resources"]
+- !private ["5Spine18ResourceIdentifierV", "init"]
+- !private ["5Spine18ResourceIdentifierV", "toDictionary"]
+- !private ["ST", "count"]
+- !private ["ST", "filter"]
+- !private ["ST", "first"]
+- !private ["ST", "init"]
+- !private ["ST", "map"]
+- !private ["ST", "resources"]
+- !private ["ST", "subscript"]
+- ["5Spine20SerializationOptionsV", "IncludeID"]
+- !private ["5Spine20SerializationOptionsV", "IncludeToMany"]
+- !private ["5Spine20SerializationOptionsV", "IncludeToOne"]
+- !private ["5Spine20SerializationOptionsV", "OmitNullValues"]
+- !private ["5Spine20SerializationOptionsV", "contains"]
+- ["5Spine20SerializationOptionsV", "deinit"]
+- !private ["5Spine18SerializeOperationC", "AnyObject"]
+- !private ["5Spine18SerializeOperationC", "Attribute"]
+- ["5Spine18SerializeOperationC", "Data"]
+- ["5Spine18SerializeOperationC", "Failable"]
+- ["5Spine18SerializeOperationC", "JSONAPIDocument"]
+- !private ["5Spine18SerializeOperationC", "JSONSerialization"]
+- ["5Spine18SerializeOperationC", "KeyFormatter"]
+- !private ["5Spine18SerializeOperationC", "NSError"]
+- !private ["5Spine18SerializeOperationC", "NSNull"]
+- !private ["5Spine18SerializeOperationC", "Relationship"]
+- ["5Spine18SerializeOperationC", "Resource"]
+- ["5Spine18SerializeOperationC", "ResourceCollection"]
+- !private ["5Spine18SerializeOperationC", "ResourceIdentifier"]
+- ["5Spine18SerializeOperationC", "ResourceType"]
+- ["5Spine18SerializeOperationC", "SerializationOptions"]
+- ["5Spine18SerializeOperationC", "SerializerError"]
+- !private ["5Spine18SerializeOperationC", "Spine"]
+- ["5Spine18SerializeOperationC", "String"]
+- !private ["5Spine18SerializeOperationC", "ToManyRelationship"]
+- !private ["5Spine18SerializeOperationC", "ToOneRelationship"]
+- ["5Spine18SerializeOperationC", "ValueFormatterRegistry"]
+- !private ["5Spine18SerializeOperationC", "addAttributes"]
+- !private ["5Spine18SerializeOperationC", "addRelationships"]
+- !private ["5Spine18SerializeOperationC", "addToManyRelationship"]
+- !private ["5Spine18SerializeOperationC", "addToOneRelationship"]
+- ["5Spine18SerializeOperationC", "deinit"]
+- ["5Spine18SerializeOperationC", "init"]
+- ["5Spine18SerializeOperationC", "keyFormatter"]
+- ["5Spine18SerializeOperationC", "main"]
+- ["5Spine18SerializeOperationC", "options"]
+- !private ["5Spine18SerializeOperationC", "resources"]
+- ["5Spine18SerializeOperationC", "result"]
+- !private ["5Spine18SerializeOperationC", "serializeResource"]
+- ["5Spine18SerializeOperationC", "valueFormatters"]
+- ["5Spine15SerializerErrorO", "deinit"]
+- !private ["5Spine15SerializerErrorO", "jsonSerializationError"]
+- ["s10SetAlgebraP", "IncludeID"]
+- !private ["s10SetAlgebraP", "IncludeToMany"]
+- !private ["s10SetAlgebraP", "IncludeToOne"]
+- !private ["s10SetAlgebraP", "OmitNullValues"]
+- !private ["s10SetAlgebraP", "contains"]
+- !private ["5SpineAAC", "logDebug"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["5Spine18ToManyRelationshipC", "linkedType"]
+- !private ["5Spine17ToOneRelationshipC", "linkedType"]
+- !private ["5Spine22ValueFormatterRegistryV", "formatValue"]
+- !private ["s14_ArrayProtocolP", "count"]
+- !private ["s14_ArrayProtocolP", "filter"]
+- !private ["s14_ArrayProtocolP", "first"]
+- !private ["s14_ArrayProtocolP", "map"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- !private ["s24_DestructorSafeContainerP", "filter"]
+- !private ["s24_DestructorSafeContainerP", "first"]
+- !private ["s24_DestructorSafeContainerP", "map"]
+- !private ["s19_HasContiguousBytesP", "count"]
+- !private ["s19_HasContiguousBytesP", "filter"]
+- !private ["s19_HasContiguousBytesP", "first"]
+- !private ["s19_HasContiguousBytesP", "map"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "count"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "filter"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "first"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "map"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Failable"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "JSONSerialization"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSNull"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "ResourceIdentifier"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "SerializerError"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Spine"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "String"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addAttributes"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addRelationships"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addToManyRelationship"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addToOneRelationship"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "data"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "fields"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "id"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "keyFormatter"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "options"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "resourceType"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "resources"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "result"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "serializeResource"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "value"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "valueFormatters"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- !private ["s21_ObjectiveCBridgeableP", "filter"]
+- !private ["s21_ObjectiveCBridgeableP", "first"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "map"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+depends-nominal:
+- !private "Sa"
+- !private "5Spine9AttributeC"
+- !private "SK"
+- "s7CVarArgP"
+- !private "Sl"
+- !private "10Foundation15ContiguousBytesP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- !private "Se"
+- !private "s26DefaultStringInterpolationV"
+- !private "SD"
+- !private "SE"
+- "SQ"
+- !private "s5ErrorP"
+- "s25ExpressibleByArrayLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- !private "5Spine8FailableO"
+- !private "5Spine5FieldC"
+- "SH"
+- !private "5Spine15JSONAPIDocumentV"
+- !private "So19NSJSONSerializationC"
+- !private "5Spine12KeyFormatterP"
+- !private "5Spine9LogDomainO"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So6NSNullC"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- "So11NSOperationC"
+- "s9OptionSetP"
+- !private "Sk"
+- !private "Sm"
+- "SY"
+- !private "5Spine12RelationshipC"
+- !private "5Spine8ResourceC"
+- !private "5Spine18ResourceCollectionC"
+- !private "5Spine18ResourceIdentifierV"
+- !private "ST"
+- "5Spine20SerializationOptionsV"
+- "5Spine18SerializeOperationC"
+- "5Spine15SerializerErrorO"
+- "s10SetAlgebraP"
+- !private "5SpineAAC"
+- !private "s27StringInterpolationProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "5Spine18ToManyRelationshipC"
+- !private "5Spine17ToOneRelationshipC"
+- !private "5Spine22ValueFormatterRegistryV"
+- !private "s14_ArrayProtocolP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/SwiftyJSON.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/BrightFutures.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/Result.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "7a3f6e1e62e98204b6ea5cd21cd40730"

@@ -2,10 +2,100 @@
   "": {
     "swift-dependencies": "/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/Spine.build/master.swiftdeps"
   },
+  "/Users/truba/work/Testing/Spine/Sources/Spine/DeserializeOperation.swift": {
+    "dependencies": "/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/Spine.build/Spine/DeserializeOperation.d",
+    "object": "/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/Spine.build/Spine/DeserializeOperation.swift.o",
+    "swiftmodule": "/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/Spine.build/Spine/DeserializeOperation~partial.swiftmodule",
+    "swift-dependencies": "/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/Spine.build/Spine/DeserializeOperation.swiftdeps"
+  },
+  "/Users/truba/work/Testing/Spine/Sources/Spine/Errors.swift": {
+    "dependencies": "/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/Spine.build/Spine/Errors.d",
+    "object": "/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/Spine.build/Spine/Errors.swift.o",
+    "swiftmodule": "/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/Spine.build/Spine/Errors~partial.swiftmodule",
+    "swift-dependencies": "/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/Spine.build/Spine/Errors.swiftdeps"
+  },
+  "/Users/truba/work/Testing/Spine/Sources/Spine/KeyFormatter.swift": {
+    "dependencies": "/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/Spine.build/Spine/KeyFormatter.d",
+    "object": "/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/Spine.build/Spine/KeyFormatter.swift.o",
+    "swiftmodule": "/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/Spine.build/Spine/KeyFormatter~partial.swiftmodule",
+    "swift-dependencies": "/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/Spine.build/Spine/KeyFormatter.swiftdeps"
+  },
+  "/Users/truba/work/Testing/Spine/Sources/Spine/Logging.swift": {
+    "dependencies": "/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/Spine.build/Spine/Logging.d",
+    "object": "/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/Spine.build/Spine/Logging.swift.o",
+    "swiftmodule": "/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/Spine.build/Spine/Logging~partial.swiftmodule",
+    "swift-dependencies": "/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/Spine.build/Spine/Logging.swiftdeps"
+  },
+  "/Users/truba/work/Testing/Spine/Sources/Spine/Networking.swift": {
+    "dependencies": "/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/Spine.build/Spine/Networking.d",
+    "object": "/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/Spine.build/Spine/Networking.swift.o",
+    "swiftmodule": "/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/Spine.build/Spine/Networking~partial.swiftmodule",
+    "swift-dependencies": "/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/Spine.build/Spine/Networking.swiftdeps"
+  },
+  "/Users/truba/work/Testing/Spine/Sources/Spine/Operation.swift": {
+    "dependencies": "/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/Spine.build/Spine/Operation.d",
+    "object": "/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/Spine.build/Spine/Operation.swift.o",
+    "swiftmodule": "/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/Spine.build/Spine/Operation~partial.swiftmodule",
+    "swift-dependencies": "/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/Spine.build/Spine/Operation.swiftdeps"
+  },
+  "/Users/truba/work/Testing/Spine/Sources/Spine/Query.swift": {
+    "dependencies": "/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/Spine.build/Spine/Query.d",
+    "object": "/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/Spine.build/Spine/Query.swift.o",
+    "swiftmodule": "/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/Spine.build/Spine/Query~partial.swiftmodule",
+    "swift-dependencies": "/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/Spine.build/Spine/Query.swiftdeps"
+  },
+  "/Users/truba/work/Testing/Spine/Sources/Spine/Resource.swift": {
+    "dependencies": "/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/Spine.build/Spine/Resource.d",
+    "object": "/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/Spine.build/Spine/Resource.swift.o",
+    "swiftmodule": "/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/Spine.build/Spine/Resource~partial.swiftmodule",
+    "swift-dependencies": "/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/Spine.build/Spine/Resource.swiftdeps"
+  },
+  "/Users/truba/work/Testing/Spine/Sources/Spine/ResourceCollection.swift": {
+    "dependencies": "/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/Spine.build/Spine/ResourceCollection.d",
+    "object": "/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/Spine.build/Spine/ResourceCollection.swift.o",
+    "swiftmodule": "/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/Spine.build/Spine/ResourceCollection~partial.swiftmodule",
+    "swift-dependencies": "/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/Spine.build/Spine/ResourceCollection.swiftdeps"
+  },
+  "/Users/truba/work/Testing/Spine/Sources/Spine/ResourceFactory.swift": {
+    "dependencies": "/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/Spine.build/Spine/ResourceFactory.d",
+    "object": "/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/Spine.build/Spine/ResourceFactory.swift.o",
+    "swiftmodule": "/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/Spine.build/Spine/ResourceFactory~partial.swiftmodule",
+    "swift-dependencies": "/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/Spine.build/Spine/ResourceFactory.swiftdeps"
+  },
+  "/Users/truba/work/Testing/Spine/Sources/Spine/ResourceField.swift": {
+    "dependencies": "/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/Spine.build/Spine/ResourceField.d",
+    "object": "/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/Spine.build/Spine/ResourceField.swift.o",
+    "swiftmodule": "/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/Spine.build/Spine/ResourceField~partial.swiftmodule",
+    "swift-dependencies": "/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/Spine.build/Spine/ResourceField.swiftdeps"
+  },
+  "/Users/truba/work/Testing/Spine/Sources/Spine/Routing.swift": {
+    "dependencies": "/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/Spine.build/Spine/Routing.d",
+    "object": "/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/Spine.build/Spine/Routing.swift.o",
+    "swiftmodule": "/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/Spine.build/Spine/Routing~partial.swiftmodule",
+    "swift-dependencies": "/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/Spine.build/Spine/Routing.swiftdeps"
+  },
+  "/Users/truba/work/Testing/Spine/Sources/Spine/SerializeOperation.swift": {
+    "dependencies": "/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/Spine.build/Spine/SerializeOperation.d",
+    "object": "/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/Spine.build/Spine/SerializeOperation.swift.o",
+    "swiftmodule": "/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/Spine.build/Spine/SerializeOperation~partial.swiftmodule",
+    "swift-dependencies": "/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/Spine.build/Spine/SerializeOperation.swiftdeps"
+  },
+  "/Users/truba/work/Testing/Spine/Sources/Spine/Serializing.swift": {
+    "dependencies": "/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/Spine.build/Spine/Serializing.d",
+    "object": "/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/Spine.build/Spine/Serializing.swift.o",
+    "swiftmodule": "/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/Spine.build/Spine/Serializing~partial.swiftmodule",
+    "swift-dependencies": "/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/Spine.build/Spine/Serializing.swiftdeps"
+  },
   "/Users/truba/work/Testing/Spine/Sources/Spine/Spine.swift": {
     "dependencies": "/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/Spine.build/Spine/Spine.d",
     "object": "/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/Spine.build/Spine/Spine.swift.o",
     "swiftmodule": "/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/Spine.build/Spine/Spine~partial.swiftmodule",
     "swift-dependencies": "/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/Spine.build/Spine/Spine.swiftdeps"
+  },
+  "/Users/truba/work/Testing/Spine/Sources/Spine/ValueFormatter.swift": {
+    "dependencies": "/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/Spine.build/Spine/ValueFormatter.d",
+    "object": "/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/Spine.build/Spine/ValueFormatter.swift.o",
+    "swiftmodule": "/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/Spine.build/Spine/ValueFormatter~partial.swiftmodule",
+    "swift-dependencies": "/Users/truba/work/Testing/Spine/.build/x86_64-apple-macosx/debug/Spine.build/Spine/ValueFormatter.swiftdeps"
   }
 }
